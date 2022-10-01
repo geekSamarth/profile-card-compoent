@@ -13,6 +13,9 @@
 body{
     min-height: 100vh;
     background-color: var(--dark-cyan);
+    background-image: url(/images/bg-pattern-top.svg),url(./images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat,no-repeat;
+    background-position: right 49vw bottom 40vh, left 45vw top 44vh;
     display: flex;
     align-items: center;
     font-family: 'Kumbh Sans', sans-serif;
